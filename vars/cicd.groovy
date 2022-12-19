@@ -1,4 +1,4 @@
 def newGit(repo)
 {
-  https://github.com/azmeeranaveen/{repo}.git
+    git "https://github.com/azmeeranaveen/{repo}.git"
 }
