@@ -2,7 +2,7 @@ def NewGit(repo)
 {
    git "https://github.com/azmeeranaveen/$(repo)-1.git"
 }
-def Newmaven()
+def NewMaven()
 {
-   sh 'mvn package'
+   sh "mvn package"
 }
